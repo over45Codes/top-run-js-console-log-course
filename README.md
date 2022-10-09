@@ -1,1 +1,1 @@
-# TOP-run-js-console.log-course
+# TOP-run-js-console-log-course
