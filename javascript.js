@@ -24,8 +24,11 @@ console.log(firstName + ' ' + lastName);
 console.log(23 + 97);
 
 //The two numbers can be literals
-let x = 100 + 50;
-console.log(x);
+let c = 100 + 50;
+console.log(c);
 
-
+let a = 100;
+let b = 50;
+let x = a + b;
+document.getElementById("demo").innerHTML = x;
 
