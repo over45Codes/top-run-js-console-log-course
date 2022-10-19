@@ -21,4 +21,11 @@ const lastName = 'Peters';
 console.log(firstName + ' ' + lastName);
 
 
+console.log(23 + 97);
+
+//The two numbers can be literals
+let x = 100 + 50;
+console.log(x);
+
+
 
