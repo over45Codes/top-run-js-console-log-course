@@ -16,3 +16,8 @@ javascriptIsFun = "Yes!"
 
 console.log(typeof javascriptIsFun);
 
+const firstName = 'Jonas';
+const lastName = 'Peters';
+console.log(firstName + ' ' + lastName);
+
+
