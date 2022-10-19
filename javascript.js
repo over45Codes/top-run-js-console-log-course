@@ -35,3 +35,8 @@ document.getElementById("demo").innerHTML = x;
 let d = 3;
 let e = (100 + 50) * d;
 document.getElementById("demo1").innerHTML = e;
+
+let f = 5;
+let y = 2;
+let z = f + y;
+document.getElementById("demo2").innerHTML = z;
