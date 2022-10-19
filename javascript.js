@@ -32,3 +32,6 @@ let b = 50;
 let x = a + b;
 document.getElementById("demo").innerHTML = x;
 
+let d = 3;
+let e = (100 + 50) * d;
+document.getElementById("demo1").innerHTML = e;
