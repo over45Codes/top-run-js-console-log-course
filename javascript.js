@@ -40,3 +40,6 @@ let f = 5;
 let y = 2;
 let z = f + y;
 document.getElementById("demo2").innerHTML = z;
+
+console.log((4 + 6 + 9) / 77)
+
