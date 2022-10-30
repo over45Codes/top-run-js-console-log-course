@@ -47,3 +47,7 @@ let g = 1;
 
 g = -g;
 alert( g ); // -1, unary negation
+
+let k = 1, l = 3;
+alert( l - k ); //2, binary minus subtracts values
+
