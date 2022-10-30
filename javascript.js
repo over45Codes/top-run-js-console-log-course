@@ -43,3 +43,7 @@ document.getElementById("demo2").innerHTML = z;
 
 console.log((4 + 6 + 9) / 77)
 
+let g = 1;
+
+g = -g;
+alert( g ); // -1, unary negation
