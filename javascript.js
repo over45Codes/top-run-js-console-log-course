@@ -1,3 +1,5 @@
+//JS Examples from The Odin Project & Other learning resources 
+
 // let helloWorld= "Hello, World!";
 // console.log(helloWorld)
 // 
@@ -52,12 +54,21 @@
 // let k = 1, l = 3;
 // alert( l - k ); //2, binary minus subtracts values
 
-// alert ( 5 % 2 ); // 1, a remainder of 5 divided by 2
-
 // The remainder operator %, despite its appearance, is not related to percents.
 
 // The result of a % b is the remainder of the integer division of a by b.
 
 // For instance:
 
+// alert ( 5 % 2 ); // 1, a remainder of 5 divided by 2
+
 // alert( 8 % 3 ); // 2, a remainder of 8 divided by 3
+
+// Exponentiation**
+ // The exponentiation operator a ** b raises a to the power of b.
+
+// In school maths, we write that as ab.
+
+// For instance:
+
+
