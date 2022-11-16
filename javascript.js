@@ -109,3 +109,11 @@
 
 // Done!!!!! 11/15/2022 
 
+// JavaScript Variables https://javascript.info/variables
+
+// let admin, name; 
+// name = "John";
+// admin = name;
+// alert( admin );
+
+
