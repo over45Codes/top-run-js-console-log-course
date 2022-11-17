@@ -214,8 +214,21 @@
 
 // Here’s a demo that uses an assignment as part of a more complex expression:
 
+// let a = 1;
+// let b = 2;
 
+// let c = 3 - ( a = b + 1 ); // (a = b) means that (a=1) plus (b=2) means (1 + 2 = 3) so the answer is 3 
 
+// alert( a ); // 3
+// // alert( c ); // 0
+
+// In the example above, the result of expression (a = b + 1) is the value which was assigned to a (that is 3). It is then used for further evaluations.
+
+// Funny code, isn’t it? We should understand how it works, because sometimes we see it in JavaScript libraries.
+
+// Although, please don’t write the code like that. Such tricks definitely don’t make code clearer or readable.
+
+// Up Next: Chaining assignments 11/17/2022
 
 
 
