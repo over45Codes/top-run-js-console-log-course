@@ -116,6 +116,121 @@
 // alert( '6' / '2' ); // 3, converts both operands to numbers
 
 // ****** left off here on 11/16/2022 *****
+// Numeric conversion, unary +
+// The plus + exists in two forms: the binary form that we used above and the unary form.
+
+// The unary plus or, in other words, the plus operator + applied to a single value, doesn’t do anything to numbers. But if the operand is not a number, the unary plus converts it into a number.
+
+// For example:
+
+// No effect on numbers
+
+// let x = 1;
+// alert( +x ); //1
+
+// let y = -2;
+// alert( +y); // -2 
+
+// Converts non-numbers
+// alert( +true ); // 1
+// alert ( +"" ); // 0
+
+// It actually does the same thing as Number(...), but is shorter.
+
+// The need to convert strings to numbers arises very often. For example, if we are getting values from HTML form fields, they are usually strings. What if we want to sum them?
+
+// The binary plus would add them as strings:
+
+// let apples = "2";
+// let oranges = "3";
+
+// alert( apples + oranges ); // "23", the binary plus concatenates strings
+
+// If we want to treat them as numbers, we need to convert and then sum them:
+
+// let apples = "2";
+// let oranges = "3";
+
+// both values converted to numbers before the binary plus
+// alert( +apples + +oranges ); // 5
+
+// alert( +apples + +oranges );
+
+// the longer variant
+// alert( Number(apples) + Number(oranges) ); // 5
+
+// From a mathematician’s standpoint, the abundance of pluses may seem strange. But from a programmer’s standpoint, there’s nothing special: unary pluses are applied first, they convert strings to numbers, and then the binary plus sums them up.
+
+// Why are unary pluses applied to values before the binary ones? As we’re going to see, that’s because of their higher precedence.
+
+
+// Operator precedence
+
+// If an expression has more than one operator, the execution order is defined by their precedence, or, in other words, the default priority order of operators.
+
+// From school, we all know that the multiplication in the expression 1 + 2 * 2 should be calculated before the addition. That’s exactly the precedence thing. The multiplication is said to have a higher precedence than the addition.
+
+// Parentheses override any precedence, so if we’re not satisfied with the default order, we can use them to change it. For example, write (1 + 2) * 2.
+
+// There are many operators in JavaScript. Every operator has a corresponding precedence number. The one with the larger number executes first. If the precedence is the same, the execution order is from left to right.
+
+// Here’s an extract from the precedence table (you don’t need to remember this, but note that unary operators are higher than corresponding binary ones):
+
+// JavaScript Demo: Expressions - Operator precedence
+
+// console.log( 3 + 4 * 5 ); // 3 + 20
+// // expected output: 23
+
+// console.log( 4 * 3 ** 2 ); // 3 ** 2 means 3 to the power of 2 = 3 * 3 = 9 / answer is // 4 * 9
+// // expected output: 36
+
+// console.log( a = b = 5 ); // expected output: 5
+
+// Assignment
+// Let’s note that an assignment = is also an operator. It is listed in the precedence table with the very low priority of 2.
+
+// That’s why, when we assign a variable, like x = 2 * 2 + 1, the calculations are done first and then the = is evaluated, storing the result in x.
+
+// let x = 2 * 2 + 1;
+
+// alert( x ); // 5
+
+// Assignment = returns a value
+// The fact of = being an operator, not a “magical” language construct has an interesting implication.
+
+// All operators in JavaScript return a value. That’s obvious for + and -, but also true for =.
+
+// The call x = value writes the value into x and then returns it.
+
+// Here’s a demo that uses an assignment as part of a more complex expression:
+
+
+// Assignment = returns a value
+// The fact of = being an operator, not a “magical” language construct has an interesting implication.
+
+// All operators in JavaScript return a value. That’s obvious for + and -, but also true for =.
+
+// The call x = value writes the value into x and then returns it.
+
+// Here’s a demo that uses an assignment as part of a more complex expression:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // TOP Assignment // Fundamentals Part 1 / Foundations Course 
