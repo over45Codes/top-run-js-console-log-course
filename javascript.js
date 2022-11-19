@@ -62,6 +62,11 @@
 // alert( 8 % 3 ); // 2, a remainder of 8 divided by 3;
 
 // Exponentiation**
+
+// the operation of raising one quantity to the power of another
+// console.log( 3 ** 4 ); // 3 * 3 * 3 * 3 = 81
+
+
  // The exponentiation operator a ** b raises a to the power of b.
 
 // In school maths, we write that as ab.
@@ -292,6 +297,8 @@
 // name = "John";
 // admin = name;
 // alert( admin );
+
+
 
 
 
