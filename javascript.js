@@ -233,15 +233,24 @@
 
 // Although, please don’t write the code like that. Such tricks definitely don’t make code clearer or readable.
 
-// Up Next: Chaining assignments 11/17/2022
+// Up Next: Chaining assignments 11/17/2022(old date) New date 12/01/2022
 
+// let a, b, c;
+// a = b = c = 2 + 2;
 
+// alert( a ); // 4
 
+// alert( b ); // 4
 
+// alert( c ); // 4
 
+// Chained assignments evaluate from right to left. First, the rightmost expression 2 + 2 is evaluated and then assigned to the variables on the left: c, b and a. At the end, all the variables share a single value.
 
+// Once again, for the purposes of readability it’s better to split such code into few lines:
 
-
+// 1. c = 2 + 2;
+// 2. b = c;
+// 3. a = c; 
 
 
 
@@ -257,7 +266,7 @@
 // Add 2 numbers together! (just type console.log(23 + 97) into your html file)
 //  console.log(23 + 97);
 
-//Add a sequence of 6 different numbers together.
+// Add a sequence of 6 different numbers together.
 // console.log(4 + 5 + 6 + 4 + 5 + 6);
 
 // Print the solution to the following equation: (4 + 6 + 9) / 77
